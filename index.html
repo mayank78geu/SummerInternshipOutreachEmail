@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sequence Manager</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f7f6;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            transition: transform 0.2s, background-color 0.2s;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.1);
+        }
+
+        .outreach { background-color: #4A90E2; }
+        .first-rem { background-color: #50C878; }
+        .second-rem { background-color: #FF7F50; }
+    </style>
+</head>
+<body>
+
+    <h1>Email Campaign Dashboard</h1>
+
+    <div class="button-container">
+        <a href="outreach.html" class="btn outreach">Outreach Email</a>
+        <a href="first-reminder.html" class="btn first-rem">First Reminder</a>
+        <a href="second-reminder.html" class="btn second-rem">Second Reminder</a>
+    </div>
+
+</body>
+</html>
